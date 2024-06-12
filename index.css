@@ -1,0 +1,82 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: gray;
+}
+body{
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    margin: 30px auto;
+}
+.row{
+ 
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.box{
+  
+
+   height: 100px;
+   width: 100px;
+   float: left;
+   font-size: 80px;
+   text-align: center;
+   color: yellow;
+
+}
+.box:hover{
+    cursor: pointer;
+    color: royalblue;
+}
+.black{
+    background-color: black;
+}
+.sidebar{
+   text-transform: uppercase;
+    display: flex;
+    position: relative;
+    right: 920px;
+    line-height: 50px;
+    
+    
+}
+.contact{
+    line-height: 30px;
+    position: relative;
+    top: 900px;
+    line-gap-override: 10px;
+    
+
+
+}
+#two{
+    position: relative;
+    bottom: 100px;
+    left: 220px;
+}
+#three{
+    position: relative;
+    bottom: 200px;
+    left: 400px;
+}
+#one:hover{
+    cursor: pointer;
+    color: aqua;
+}
+
+#two:hover{
+    cursor: pointer;
+    color: blue;
+}
+
+#threee:hover{
+    cursor: pointer;
+    color: skyblue;
+}
