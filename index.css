@@ -1,82 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
-}
-
-html{
-    background-color: gray;
+  
+    box-sizing: border-box;
 }
 body{
-    width: 800px;
-    height: 800px;
-    background-color: white;
-    margin: 30px auto;
-}
-.row{
- 
-    width: 100%;
-    height: 100%;
-    float: left;
-}
-
-.box{
-  
-
-   height: 100px;
-   width: 100px;
-   float: left;
-   font-size: 80px;
-   text-align: center;
-   color: yellow;
+    height: 700px;
+    width: 1200px;
+    margin-left: 200px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    bottom: 40px;
+}    nav{
+   padding: 10px;
+   font-family: "Poppins", sans-serif; 
 
 }
-.box:hover{
-    cursor: pointer;
-    color: royalblue;
+h1,ul,li,a{
+    display: inline;
 }
-.black{
-    background-color: black;
+ul{
+    
+    margin-left: 55%;
+    gap: 10px;
+border: transparent solid ;
+
 }
-.sidebar{
-   text-transform: uppercase;
-    display: flex;
+h2{
+    color: black;
+    font-family: "Playwrite AU VIC", cursive;
+    margin-left: 100px;
+    font-weight: 800;
+}
+nav ul li a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.8s ;
+
+
+}
+nav ul li a:hover{
+    background-color: blue;
+}
+img{
     position: relative;
-    right: 920px;
-    line-height: 50px;
-    
+    left: 850px;
+    width: 250px;
+    height: 200px;
+    border-radius:17px 32px 12px 57px;
+    align-items: center;
+    top: 270px;
     
 }
-.contact{
-    line-height: 30px;
+img:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#one{
     position: relative;
-    top: 900px;
-    line-gap-override: 10px;
-    
-
-
+    top: -80px;
+    font-size: 50px;
+    color: blue;
+    left: 50px;
 }
 #two{
     position: relative;
-    bottom: 100px;
-    left: 220px;
+    bottom: 10px;
+    font-size: 40px;
+    color: black;
+    left: 20px;
+    
+
 }
-#three{
+#name{
     position: relative;
-    bottom: 200px;
-    left: 400px;
+    bottom: -100px;
+    font-size: 60px;
+    color: skyblue;
+    right: 150px;
+}
+#four{
+    position: relative;
+    bottom: -200px;
+    font-size: 60px;
+    color: black;
+    right: 200px;
+    
+
+}
+.about{
+    padding:35px;
+    gap: 20px;
+
 }
 #one:hover{
-    cursor: pointer;
-    color: aqua;
+    color: rgba(255,255,255,.3);
+    background: #1a1a1a;
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+    background-clip: text;
 }
-
 #two:hover{
-    cursor: pointer;
-    color: blue;
+    color: #FFFFFF;
+background: red;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+background-clip: text;
 }
-
-#threee:hover{
-    cursor: pointer;
-    color: skyblue;
+#name:hover{
+    color: #FFFFFF;
+    background: #333333;
+    text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
+    background-clip: text;
 }
