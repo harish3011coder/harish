@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0 ;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+}
+
+
+nav{
+    
+}
+ul{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    justify-content: space-around;
+    padding-top: 60px;
+
+    
+}
+ ul li a{
+    text-decoration: none;
+    color: white;
+
+ }
+ul li a,
+ul li:hover{
+   
+    text-shadow: 0 0 10px   skyblue,0 0 20px skyblue,0 0 30px skyblue,0 0  skyblue;
+    transform: scale(1.7);
+    transition: 0.9S;
+}   
+h1{
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80px;
+    text-shadow: 0 0 10px red,0 0 20px blue,0 0 30px wheat;
+}
+
+img{
+    width: 250px;
+    height: 200px;
+    position: absolute;
+   
+}
+.container{
+    width: 250px;
+    height: 200px;
+    position: relative;
+    margin-top: 15%;
+    margin-left: 40%;
+    perspective: 1000px;
+   transform: rotate3d(-10deg) rotateZ(-10deg); 
+   animation: ror 20s linear  infinite;
+}
+@keyframes ror{
+    50%{
+        transform: rotateX(30deg);
+    }
+80%{
+        transform: rotateX(-30deg);
+    }
+}
+.images{
+    width: 100%;
+    position: absolute;
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite ;
+
+}
+img:hover{
+    width: 400px;
+    height: 300px;
+    cursor: pointer;
+}
+@keyframes rotate{
+    form{
+
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+img:nth-child(1){
+    transform: rotateY(45deg) translateZ(300px);
+}
+img:nth-child(2){
+    transform: rotatey(90deg) translateZ(300px);
+}
+img:nth-child(3){
+    transform: rotateY(135deg) translateZ(350px);
+}
+img:nth-child(4){
+    transform: rotateY(180deg) translateZ(300px);
+}
+img:nth-child(5){
+    transform: rotateY(225deg) translateZ(300px);
+}
+img:nth-child(6){
+    transform: rotateY(270deg) translateZ(300px);
+}
+img:nth-child(7){
+    transform: rotateY(315deg) translateZ(300px);
+}
+img:nth-child(8){
+    transform: rotateY(360deg) translateZ(300px);
+}
+
